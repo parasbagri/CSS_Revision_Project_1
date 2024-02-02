@@ -1,0 +1,177 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: gilroy;
+} 
+html,body{
+     width: 100%;
+     height: 100vh;
+}
+#main{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+} 
+.werraper{
+     width: 90%;
+     height: 100%;
+    
+} 
+#nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     height: 80px;
+} 
+button{
+     padding: 0.4rem 0.8rem ;
+     border: 2px solid black;
+     background-color: #fff;
+     border-radius: 40%;
+     -webkit-border-radius: 40%;
+     -moz-border-radius: 40%;
+     -ms-border-radius: 40%;
+     -o-border-radius: 40%;
+     font-weight: 600;
+} 
+.icon{
+    border: 2px solid black;
+    padding: 5px 6px;
+    border-radius: 40%;
+    font-size: 14px;
+}  
+.btn{
+     background-color: red;
+     color:white;
+}
+.red-circle{
+     height: 30px;
+     width: 30px;
+     background-color: red;
+     display: inline-block;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+} 
+.mid-part{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 5px;
+} 
+.main{
+     /* border: 1px solid black; */
+     height: 70%;
+     /* position: relative; */
+}
+.main>h1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 70px;
+     text-transform: uppercase;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     -o-transform: translate(-50%, -50%);
+     border: 1px solid black;
+     width: 100%;
+}  
+.main>.img1{
+     width: 400px;
+     height: 400px;
+     object-fit: cover;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%) ;
+     -webkit-transform: translate(-50%,-50%) ;
+     -moz-transform: translate(-50%,-50%) ;
+     -ms-transform: translate(-50%,-50%) ;
+     -o-transform: translate(-50%,-50%) ;
+     border-radius:20px ;
+     -webkit-border-radius:20px ;
+     -moz-border-radius:20px ;
+     -ms-border-radius:20px ;
+     -o-border-radius:20px ;
+     z-index: 4;
+}  
+.img2{
+     width: 400px;
+     height: 400px;
+     object-fit: cover;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%) rotate(-10deg);
+     border-radius:20px;
+     -webkit-border-radius:20px;
+     -moz-border-radius:20px;
+     -ms-border-radius:20px;
+     -o-border-radius:20px;
+     -webkit-transform: translate(-50%,-50%) rotate(-10deg);
+     -moz-transform: translate(-50%,-50%) rotate(-10deg);
+     -ms-transform: translate(-50%,-50%) rotate(-10deg);
+     -o-transform: translate(-50%,-50%) rotate(-10deg);
+     z-index: 3;
+}
+.img3{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) rotate(-20deg);
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-transform: translate(-50%,-50%) rotate(-20deg);
+    -moz-transform: translate(-50%,-50%) rotate(-20deg);
+    -ms-transform: translate(-50%,-50%) rotate(-20deg);
+    -o-transform: translate(-50%,-50%) rotate(-20deg);
+    z-index: 2;
+}
+
+.img4{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%) rotate(-30deg);
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    -webkit-transform: translate(-50%,-50%) rotate(-30deg);
+    -moz-transform: translate(-50%,-50%) rotate(-30deg);
+    -ms-transform: translate(-50%,-50%) rotate(-30deg);
+    -o-transform: translate(-50%,-50%) rotate(-30deg);
+}
+footer{
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+} 
+.ico{
+    border-color: green;
+    color: red;
+} 
+.face{
+     color: blue;
+}
+ 
